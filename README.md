@@ -1,9 +1,9 @@
 # dotenv.core
 
-[![dotenv-logo](https://raw.githubusercontent.com/MrDave1999/dotenv.core/master/docs/images/dotenv-logo.png)](https://github.com/mrdave1999/dotenv.core)
+[![dotenv-logo](https://raw.githubusercontent.com/DevD4v3/dotenv.core/master/docs/images/dotenv-logo.png)](https://github.com/DevD4v3/dotenv.core)
 
-[![dotenv.core](https://img.shields.io/badge/.NET%20Standard-2.0-red)](https://github.com/mrdave1999/dotenv.core)
-[![dotenv.core](https://img.shields.io/badge/License-MIT-green)](https://raw.githubusercontent.com/MrDave1999/dotenv.core/master/LICENSE)
+[![dotenv.core](https://img.shields.io/badge/.NET%20Standard-2.0-red)](https://github.com/DevD4v3/dotenv.core)
+[![dotenv.core](https://img.shields.io/badge/License-MIT-green)](https://raw.githubusercontent.com/DevD4v3/dotenv.core/master/LICENSE)
 [![PayPal-donate-button](https://img.shields.io/badge/paypal-donate-orange)](https://www.paypal.com/paypalme/DavidRomanAmariles)
 
 [![DotEnv.Core](https://img.shields.io/nuget/vpre/DotEnv.Core?label=DotEnv.Core%20-%20nuget&color=red)](https://www.nuget.org/packages/DotEnv.Core)
@@ -66,7 +66,7 @@ The advantage of using this library is that you do not need to set the environme
 - Support for the variables interpolation.
 - And much more.
 
-Don't forget to visit the official library [website](https://mrdave1999.github.io/dotenv.core) where you can find [API documentation](https://mrdave1999.github.io/dotenv.core/api/DotEnv.Core.html) and [articles](https://mrdave1999.github.io/dotenv.core/articles/getting_started.html).
+Don't forget to visit the official library [website](https://DevD4v3.github.io/dotenv.core) where you can find [API documentation](https://DevD4v3.github.io/dotenv.core/api/DotEnv.Core.html) and [articles](https://DevD4v3.github.io/dotenv.core/articles/getting_started.html).
 
 ## Basic Concepts
 ### What is a .env file?
@@ -142,7 +142,7 @@ int dbPort = "DB_PORT".GetEnv<int>();
 ```
 You can also use the [Environment](https://learn.microsoft.com/en-us/dotnet/api/system.environment.getenvironmentvariable?view=net-7.0) class or the [Configuration API](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration) to access the environment variables. 
 
-**Suggestion:** It is recommended to use constants to avoid hard-coded keys in the application logic. A complete example can be found [here](https://github.com/MrDave1999/dotenv.core/blob/master/samples/DotEnv.Example/Program.cs).
+**Suggestion:** It is recommended to use constants to avoid hard-coded keys in the application logic. A complete example can be found [here](https://github.com/DevD4v3/dotenv.core/blob/master/samples/DotEnv.Example/Program.cs).
 
 ### Bind the model instance with the configuration keys
 
@@ -248,7 +248,7 @@ new EnvLoader().Load();
 builder.Configuration.AddEnvironmentVariables();
 ```
 
-For more information, see the [articles](https://mrdave1999.github.io/dotenv.core/articles/getting_started.html).
+For more information, see the [articles](https://DevD4v3.github.io/dotenv.core/articles/getting_started.html).
 
 ## Copying .env file to the publish directory
 
@@ -256,7 +256,7 @@ You can copy the .env file to the publish directory using the following package:
 ```
 dotnet add package DotEnv.Core.Props
 ```
-For more information, see the [README](https://github.com/MrDave1999/dotenv.core/tree/master/props).
+For more information, see the [README](https://github.com/DevD4v3/dotenv.core/tree/master/props).
 
 If you do not want to use the previous package, add the following to your `.csproj` file:
 ```xml
@@ -276,7 +276,7 @@ dotnet add package Dotenv.Extensions.Microsoft.DependencyInjection
 ```
 This package adds extension methods for [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection), which can be accessed from the `IServiceCollection` interface.
 
-For more information, see the documentation [here](https://mrdave1999.github.io/dotenv.core/extensions/microsoft_extensions_DI.html).
+For more information, see the documentation [here](https://DevD4v3.github.io/dotenv.core/extensions/microsoft_extensions_DI.html).
 
 ### Integration with Microsoft.Extensions.Configuration
 
@@ -286,23 +286,23 @@ dotnet add package Dotenv.Extensions.Microsoft.Configuration
 ```
 This package adds extension methods for [Microsoft.Extensions.Configuration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration), which can be accessed from the `IConfigurationBuilder` interface.
 
-For more information, see the documentation [here](https://mrdave1999.github.io/dotenv.core/extensions/microsoft_extensions_config.html).
+For more information, see the documentation [here](https://DevD4v3.github.io/dotenv.core/extensions/microsoft_extensions_config.html).
 
 ## Samples
 
 You can find a complete and functional example in these projects:
-- [DotEnv.Example](https://github.com/MrDave1999/dotenv.core/tree/master/samples/DotEnv.Example)
-- [DotEnv.Example.SharedSettings](https://github.com/MrDave1999/dotenv.core/tree/master/samples/DotEnv.Example.SharedSettings)
-- [DotEnv.Example.RequiredKeys](https://github.com/MrDave1999/dotenv.core/tree/master/samples/DotEnv.Example.RequiredKeys)
-- [DotEnv.Example.Parsing](https://github.com/MrDave1999/dotenv.core/tree/master/samples/DotEnv.Example.Parsing)
-- [DotEnv.Example.Binding](https://github.com/MrDave1999/dotenv.core/tree/master/samples/DotEnv.Example.Binding)
-- [DotEnv.Example.OptionsPattern](https://github.com/MrDave1999/dotenv.core/tree/master/samples/DotEnv.Example.OptionsPattern)
-- [DotEnv.Example.ConfigurationApi](https://github.com/MrDave1999/dotenv.core/tree/master/samples/DotEnv.Example.ConfigurationApi)
-- [DotEnv.Example.NetFramework](https://github.com/MrDave1999/dotenv.core/tree/master/samples/DotEnv.Example.NetFramework)
-- [DotEnv.Example.AspNetFramework](https://github.com/MrDave1999/dotenv.core/tree/master/samples/DotEnv.Example.AspNetFramework)
-- [DotEnv.Example.AspNetCore](https://github.com/MrDave1999/dotenv.core/tree/master/samples/DotEnv.Example.AspNetCore)
-- [DotEnv.Extensions.Microsoft.DependencyInjection](https://github.com/MrDave1999/dotenv.core/tree/master/plugins/Microsoft.Extensions.DI/example)
-- [DotEnv.Extensions.Microsoft.Configuration](https://github.com/MrDave1999/dotenv.core/tree/master/plugins/Microsoft.Extensions.Config/example)
+- [DotEnv.Example](https://github.com/DevD4v3/dotenv.core/tree/master/samples/DotEnv.Example)
+- [DotEnv.Example.SharedSettings](https://github.com/DevD4v3/dotenv.core/tree/master/samples/DotEnv.Example.SharedSettings)
+- [DotEnv.Example.RequiredKeys](https://github.com/DevD4v3/dotenv.core/tree/master/samples/DotEnv.Example.RequiredKeys)
+- [DotEnv.Example.Parsing](https://github.com/DevD4v3/dotenv.core/tree/master/samples/DotEnv.Example.Parsing)
+- [DotEnv.Example.Binding](https://github.com/DevD4v3/dotenv.core/tree/master/samples/DotEnv.Example.Binding)
+- [DotEnv.Example.OptionsPattern](https://github.com/DevD4v3/dotenv.core/tree/master/samples/DotEnv.Example.OptionsPattern)
+- [DotEnv.Example.ConfigurationApi](https://github.com/DevD4v3/dotenv.core/tree/master/samples/DotEnv.Example.ConfigurationApi)
+- [DotEnv.Example.NetFramework](https://github.com/DevD4v3/dotenv.core/tree/master/samples/DotEnv.Example.NetFramework)
+- [DotEnv.Example.AspNetFramework](https://github.com/DevD4v3/dotenv.core/tree/master/samples/DotEnv.Example.AspNetFramework)
+- [DotEnv.Example.AspNetCore](https://github.com/DevD4v3/dotenv.core/tree/master/samples/DotEnv.Example.AspNetCore)
+- [DotEnv.Extensions.Microsoft.DependencyInjection](https://github.com/DevD4v3/dotenv.core/tree/master/plugins/Microsoft.Extensions.DI/example)
+- [DotEnv.Extensions.Microsoft.Configuration](https://github.com/DevD4v3/dotenv.core/tree/master/plugins/Microsoft.Extensions.Config/example)
 
 ## File Format
 
@@ -398,4 +398,4 @@ Follow the steps below:
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Added some feature')
 4. Push to the branch (git push origin my-new-feature)
-5. Create new [Pull Request](https://github.com/MrDave1999/dotenv.core/pulls)
+5. Create new [Pull Request](https://github.com/DevD4v3/dotenv.core/pulls)
