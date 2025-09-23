@@ -5,7 +5,7 @@
         <version>1.0.1</version>
         <authors>David Román Amariles</authors>
         <owners>David Román Amariles</owners>
-        <projectUrl>https://github.com/MrDave1999/dotenv.core</projectUrl>
+        <projectUrl>https://github.com/DevD4v3/dotenv.core</projectUrl>
         <license type="expression">MIT</license>
         <readme>README.md</readme>
         <icon>dotenv-icon-nuget.png</icon>
