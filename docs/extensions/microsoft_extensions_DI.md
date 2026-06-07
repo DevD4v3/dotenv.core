@@ -1,12 +1,11 @@
 # Dotenv.Extensions.Microsoft.DI
 
-[![dotenv.core](https://img.shields.io/badge/.NET%20Standard-2.0-red)](https://github.com/MrDave1999/dotenv.core)
-[![Nuget-Badges](https://buildstats.info/nuget/Dotenv.Extensions.Microsoft.DependencyInjection)](https://www.nuget.org/packages/Dotenv.Extensions.Microsoft.DependencyInjection/)
+[![dotenv.core](https://img.shields.io/badge/.NET%20Standard-2.0-red)](https://github.com/DevD4v3/dotenv.core)
 
-This library adds extension methods for the [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection) package, which can be accessed through the [IServiceCollection](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection) interface. So, this library is just a wrapper and behind the scenes what happens is that it uses the classes and methods from the [DotEnv.Core](https://github.com/MrDave1999/dotenv.core) project.
+This library adds extension methods for the [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection) package, which can be accessed through the [IServiceCollection](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection) interface. So, this library is just a wrapper and behind the scenes what happens is that it uses the classes and methods from the [DotEnv.Core](https://github.com/DevD4v3/dotenv.core) project.
 
 This project was created to add support for DI and can be used in ASP.NET Core projects.
-Refer to the [API documentation](https://mrdave1999.github.io/dotenv.core/api/Microsoft.Extensions.DependencyInjection.html).
+Refer to the [API documentation](https://DevD4v3.github.io/dotenv.core/api/Microsoft.Extensions.DependencyInjection.html).
 
 ## Advantages
 
@@ -60,7 +59,7 @@ public class HomeController : ControllerBase
     }
 }
 ```
-**Note:** You can also take a look at the [source code](https://github.com/MrDave1999/dotenv.core/tree/master/plugins/Microsoft.Extensions.DI/example) of the example project.
+**Note:** You can also take a look at the [source code](https://github.com/DevD4v3/dotenv.core/tree/master/plugins/Microsoft.Extensions.DI/example) of the example project.
 
 ### Load .env file based on environment
 
@@ -99,4 +98,4 @@ Done, use `AppSettings` on the controllers and let the container perform the dep
 
 ## Samples
 
-- [DotEnv.Extensions.Microsoft.DependencyInjection](https://github.com/MrDave1999/dotenv.core/tree/master/plugins/Microsoft.Extensions.DI/example)
+- [DotEnv.Extensions.Microsoft.DependencyInjection](https://github.com/DevD4v3/dotenv.core/tree/master/plugins/Microsoft.Extensions.DI/example)

@@ -1,15 +1,14 @@
 # Dotenv.Extensions.Microsoft.Configuration
 
-[![dotenv.core](https://img.shields.io/badge/.NET%20Standard-2.0-red)](https://github.com/MrDave1999/dotenv.core)
-[![Nuget-Badges](https://buildstats.info/nuget/Dotenv.Extensions.Microsoft.Configuration)](https://www.nuget.org/packages/Dotenv.Extensions.Microsoft.Configuration/)
+[![dotenv.core](https://img.shields.io/badge/.NET%20Standard-2.0-red)](https://github.com/DevD4v3/dotenv.core)
 
 ENV configuration provider implementation for [Microsoft.Extensions.Configuration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration).
 
-This library adds extension methods for the [Microsoft.Extensions.Configuration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration) package, which can be accessed through the [IConfigurationBuilder](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.iconfigurationbuilder) interface. So, this library is just a wrapper and behind the scenes what happens is that it uses the classes and methods from the [DotEnv.Core](https://github.com/MrDave1999/dotenv.core) project.
+This library adds extension methods for the [Microsoft.Extensions.Configuration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration) package, which can be accessed through the [IConfigurationBuilder](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.iconfigurationbuilder) interface. So, this library is just a wrapper and behind the scenes what happens is that it uses the classes and methods from the [DotEnv.Core](https://github.com/DevD4v3/dotenv.core) project.
 
 This project was created to integrate the [DotEnv.Core](https://www.nuget.org/packages/DotEnv.Core) package into the .NET configuration system.
 
-Refer to the [API documentation](https://mrdave1999.github.io/dotenv.core/api/Microsoft.Extensions.Configuration.html).
+Refer to the [API documentation](https://DevD4v3.github.io/dotenv.core/api/Microsoft.Extensions.Configuration.html).
 
 ## Installation
 
@@ -56,4 +55,4 @@ It doesn't matter if your .env file is in the root directory of your project, th
 
 ## Samples
 
-- [DotEnv.Extensions.Microsoft.Configuration](https://github.com/MrDave1999/dotenv.core/tree/master/plugins/Microsoft.Extensions.Config/example)
+- [DotEnv.Extensions.Microsoft.Configuration](https://github.com/DevD4v3/dotenv.core/tree/master/plugins/Microsoft.Extensions.Config/example)
