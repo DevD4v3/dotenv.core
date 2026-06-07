@@ -72,7 +72,7 @@ public partial class EnvLoader
             envFileName = Path.GetFileName(envFileName);
         }
         else
-            path = AppContext.BaseDirectory;
+            path = PathResolver.BaseDirectory;
 
         for (var directoryInfo = new DirectoryInfo(path);
             directoryInfo is not null;
