@@ -8,7 +8,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>David Román Amariles</Authors>
     <Copyright>David Román Amariles</Copyright>
-    <PackageProjectUrl>https://mrdave1999.github.io/dotenv.core</PackageProjectUrl>
+    <PackageProjectUrl>https://devd4v3.github.io/dotenv.core</PackageProjectUrl>
     <PackageIcon>dotenv-icon-nuget.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/DevD4v3/dotenv.core</RepositoryUrl>
