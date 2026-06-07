@@ -16,7 +16,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <Description>Integrates DotEnv.Core package with Microsoft.Extensions.DependencyInjection</Description>
-    <Version>3.1.0</Version>
+    <Version>3.1.1</Version>
     <PackageReleaseNotes>See https://github.com/DevD4v3/dotenv.core/releases</PackageReleaseNotes>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <NoWarn>1591</NoWarn>
