@@ -7,7 +7,6 @@
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageId>DotEnv.Core</PackageId>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>David Román Amariles</Authors>
     <Copyright>David Román Amariles</Copyright>
     <PackageProjectUrl>https://devd4v3.github.io/dotenv.core</PackageProjectUrl>
