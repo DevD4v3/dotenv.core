@@ -3,7 +3,7 @@
 public partial class EnvReaderTests
 {
     [TestMethod]
-    public void EnvBool_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvBool_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_BOOL", "true");
@@ -15,7 +15,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvByte_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvByte_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_BYTE", "2");
@@ -25,7 +25,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvChar_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvChar_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_CHAR", "A");
@@ -35,7 +35,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvDecimal_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvDecimal_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_DECIMAL", "12.5");
@@ -47,7 +47,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvDouble_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvDouble_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_DOUBLE", "12.5");
@@ -59,7 +59,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvFloat_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvFloat_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_FLOAT", "12.5");
@@ -71,7 +71,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvInt_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvInt_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_INT", "3");
@@ -81,7 +81,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvLong_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvLong_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_LONG", "3");
@@ -92,7 +92,7 @@ public partial class EnvReaderTests
 
 
     [TestMethod]
-    public void EnvSByte_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvSByte_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_SBYTE", "3");
@@ -102,7 +102,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvShort_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvShort_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_SHORT", "3");
@@ -112,7 +112,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvString_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvString_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_STRING", "This is a string.");
@@ -122,7 +122,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvUInt_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvUInt_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_UINT", "2");
@@ -132,7 +132,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvULong_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvULong_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_ULONG", "2");
@@ -142,7 +142,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void EnvUShort_WhenVariableIsSet_ShouldReturnsValue()
+    public void EnvUShort_WhenVariableIsSet_ShouldReturnValue()
     {
         var reader = new EnvReader();
         SetEnvironmentVariable("KEY_USHORT", "2");

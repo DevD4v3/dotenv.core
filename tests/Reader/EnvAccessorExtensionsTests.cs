@@ -31,7 +31,7 @@ public class EnvAccessorExtensionsTests
     }
 
     [TestMethod]
-    public void GetEnv_WhenVariableExistsInCurrentProcess_ShouldReturnsValue()
+    public void GetEnv_WhenVariableExistsInCurrentProcess_ShouldReturnValue()
     {
         GetEnvTestHelper(expected: "Test");
         GetEnvTestHelper<string>(value:  "Test",  expected: "Test");

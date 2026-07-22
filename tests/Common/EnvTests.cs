@@ -9,7 +9,7 @@ public class EnvTests
     [DataRow("dev",         true)]
     [DataRow("DEV",         true)]
     [DataRow(default,       false)]
-    public void IsDevelopment_WhenCurrentEnvironmentIsDevelopmentOrDev_ShouldReturnsTrue(
+    public void IsDevelopment_WhenCurrentEnvironmentIsDevelopmentOrDev_ShouldReturnTrue(
         string currentEnvironment, bool expected)
     {
         // Arrange
@@ -26,7 +26,7 @@ public class EnvTests
     [DataRow("test",  true)]
     [DataRow("TEST",  true)]
     [DataRow(default, false)]
-    public void IsTest_WhenCurrentEnvironmentIsTest_ShouldReturnsTrue(
+    public void IsTest_WhenCurrentEnvironmentIsTest_ShouldReturnTrue(
         string currentEnvironment, bool expected)
     {
         // Arrange
@@ -43,7 +43,7 @@ public class EnvTests
     [DataRow("staging", true)]
     [DataRow("STAGING", true)]
     [DataRow(default,   false)]
-    public void IsStaging_WhenCurrentEnvironmentIsStaging_ShouldReturnsTrue(
+    public void IsStaging_WhenCurrentEnvironmentIsStaging_ShouldReturnTrue(
         string currentEnvironment, bool expected)
     {
         // Arrange
@@ -62,7 +62,7 @@ public class EnvTests
     [DataRow("prod",       true)]
     [DataRow("PROD",       true)]
     [DataRow(default,      false)]
-    public void IsProduction_WhenCurrentEnvironmentIsProductionOrProd_ShouldReturnsTrue(
+    public void IsProduction_WhenCurrentEnvironmentIsProductionOrProd_ShouldReturnTrue(
         string currentEnvironment, bool expected)
     {
         // Arrange
@@ -79,7 +79,7 @@ public class EnvTests
     [DataRow("production", "Production", true)]
     [DataRow("production", "PRODUCTION", true)]
     [DataRow(default,      "production", false)]
-    public void IsEnvironment_WhenCurrentEnvironmentIsProductionAndValueSpecifiedIsProduction_ShouldReturnsTrue(
+    public void IsEnvironment_WhenCurrentEnvironmentIsProductionAndValueSpecifiedIsProduction_ShouldReturnTrue(
         string currentEnvironment,
         string environmentName,
         bool expected)

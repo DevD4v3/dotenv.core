@@ -6,7 +6,7 @@ public partial class EnvReaderTests
     private const string VariableNotFound = nameof(VariableNotFound);
 
     [TestMethod]
-    public void HasValue_WhenVariableExistsInCurrentProcess_ShouldReturnsTrue()
+    public void HasValue_WhenVariableExistsInCurrentProcess_ShouldReturnTrue()
     {
         // Arrange
         var reader = new EnvReader();
@@ -20,7 +20,7 @@ public partial class EnvReaderTests
     }
 
     [TestMethod]
-    public void HasValue_WhenVariableDoesNotExistsInCurrentProcess_ShouldReturnsFalse()
+    public void HasValue_WhenVariableDoesNotExistsInCurrentProcess_ShouldReturnFalse()
     {
         // Arrange
         var reader = new EnvReader();
