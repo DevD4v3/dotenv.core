@@ -53,6 +53,7 @@ The advantage of using this library is that you do not need to set the environme
   * [Should I commit my .env file?](#should-i-commit-my-env-file)
   * [Why is it not overriding existing environment variables?](#why-is-it-not-overriding-existing-environment-variables)
 - [Contribution](#contribution)
+- [License](#license)
 
 ## Features
 
@@ -390,12 +391,16 @@ By default, it won't overwrite existing environment variables as dotenv assumes 
 
 ## Contribution
 
-Any contribution is welcome, the **parser** is still VERY dumb, so if you can improve it, do it.
+Contributions of all kinds are welcome! You can help by improving the code, documentation, or tests.
 
-Follow the steps below:
+To contribute:
 
-1. Fork it
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Added some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create new [Pull Request](https://github.com/DevD4v3/dotenv.core/pulls)
+- Fork the repository.
+- Create a feature branch (`git checkout -b my-new-change`).
+- Commit your changes (`git commit -am "Add some change"`).
+- Push to your branch (`git push origin my-new-change`).
+- Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/DevD4v3/dotenv.core/blob/master/LICENSE) file for details.
